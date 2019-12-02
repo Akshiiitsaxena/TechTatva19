@@ -75,7 +75,7 @@ class MyApp extends StatelessWidget {
     ]);
     return MaterialApp(
       showPerformanceOverlay: false,
-      debugShowCheckedModeBanner: false,
+      debugShowCheckedModeBanner: true,
       title: 'TechTatva',
       theme: ThemeData(
         canvasColor: Colors.black,
