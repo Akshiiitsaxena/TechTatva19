@@ -140,8 +140,8 @@ class _LoginPageState extends State<LoginPage> {
                             end: Alignment.centerRight,
                             stops: [0.1, 0.3, 0.7, 0.9],
                             colors: [
-                              Colors.greenAccent.withOpacity(0.9),
-                              Colors.greenAccent.withOpacity(0.7),
+                              Colors.orangeAccent.withOpacity(0.9),
+                              Colors.orangeAccent.withOpacity(0.7),
                               Colors.teal.withOpacity(0.8),
                               Colors.teal.withOpacity(0.6),
                             ],
@@ -172,7 +172,7 @@ class _LoginPageState extends State<LoginPage> {
                     margin: EdgeInsets.symmetric(horizontal: 15.0),
                     child: Container(
                       decoration: BoxDecoration(
-                          border: new Border.all(color: Colors.greenAccent),
+                          border: new Border.all(color: Colors.orangeAccent),
                           borderRadius: BorderRadius.circular(25.0)),
                       height: MediaQuery.of(context).size.height * 0.055,
                       width: MediaQuery.of(context).size.width,
